@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JavaScript, Promises & Async/Await</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #loading {
+            color: blue;
+            font-weight: bold;
+            display: none;
+        }
+
+        #events {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Community Events</h1>
+
+    <button onclick="loadEvents()">Load Events (.then)</button>
+    <button onclick="loadEventsAsync()">Load Events (Async/Await)</button>
+
+    <p id="loading">Loading events...</p>
+
+    <div id="events"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
