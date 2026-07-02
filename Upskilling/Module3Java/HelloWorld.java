@@ -1,4 +1,4 @@
-package Upskilling.Module 3 Java;
+package Upskilling.Module3Java;
 
 public class HelloWorld {
 
