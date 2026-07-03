@@ -21,4 +21,3 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Interest rates updated successfully.');
 
 END;
-/
